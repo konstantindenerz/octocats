@@ -28,9 +28,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="539.53721"
-     inkscape:cy="337.41989"
+     inkscape:zoom="0.73679974"
+     inkscape:cx="639.40816"
+     inkscape:cy="308.43788"
      inkscape:document-units="px"
      inkscape:current-layer="g4592"
      showgrid="false"
@@ -610,12 +610,19 @@
          id="feGaussianBlur4029" />
     </filter>
     <filter
-       inkscape:collect="always"
-       id="filter4197">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="16.665758"
-         id="feGaussianBlur4199" />
+       id="filter3238"
+       inkscape:label="Desaturate"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       inkscape:menu="Color"
+       inkscape:menu-tooltip="Render in shades of gray by reducing saturation to zero"
+       color-interpolation-filters="sRGB">
+      <feColorMatrix
+         id="feColorMatrix3240"
+         type="saturate"
+         values="0" />
     </filter>
   </defs>
   <metadata
@@ -677,7 +684,7 @@
          style="fill:#cacaca;fill-opacity:1;stroke:none" />
       <path
          transform="matrix(1.4485836,0,0,1.4485836,1215.6276,54.864448)"
-         d="m 2601,328.36218 a 140,140 0 1 1 -280,0 140,140 0 1 1 280,0 z"
+         d="m 2601,328.36218 c 0,77.31987 -62.6801,140 -140,140 -77.3199,0 -140,-62.68013 -140,-140 0,-77.31986 62.6801,-140 140,-140 77.3199,0 140,62.68014 140,140 z"
          sodipodi:ry="140"
          sodipodi:rx="140"
          sodipodi:cy="328.36218"
@@ -1493,7 +1500,7 @@
       <g
          id="g4369"
          transform="matrix(0.26421151,0,0,0.26421151,3539.8313,692.95859)"
-         style="opacity:0.51851849">
+         style="opacity:0.51851849000000005;filter:url(#filter3238)">
         <g
            id="g4338">
           <g
